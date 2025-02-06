@@ -1,5 +1,5 @@
 [project]
-name = "python-mini-utils"
+name = "umini"
 version = "0.1.0"
 description = "A set of useful small python utilities"
 authors = [
