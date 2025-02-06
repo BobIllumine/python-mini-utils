@@ -1,0 +1,12 @@
+__pycache__/
+.DS_Store
+.vscode/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ruff_ignore/
+.ruff_output/
+*.log*
+*.txt
+*.json
