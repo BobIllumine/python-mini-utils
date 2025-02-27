@@ -61,6 +61,10 @@ class LoggedObject(ABC):
     def __init__(self, logger: Logger = Logger()):
         self.logger = logger
 
+    def __init_subclass__(cls, logger: Logger = Logger(), **kwargs):
+        super().__init_subclass__(**kwargs)
+        cls.logger = logger
+
     def disable_logging(self):
         self.logger.disable()
 
